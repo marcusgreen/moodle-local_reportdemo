@@ -2,6 +2,8 @@
 
 Demonstration of the reportbuilder functionality delivered with Moodle 4.X in a local plugin.
 
+![alt text](./docs/images/reportdemo.png "Screen shot of demo report")
+
 The following resources were used when creating this
 
 https://github.com/marinaglancy/moodle-tool_courserating/blob/master/index.php#L38
