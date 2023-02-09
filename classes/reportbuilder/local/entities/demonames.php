@@ -82,10 +82,14 @@ class demonames extends base {
         $columns[] = $column;
         return $columns;
     }
+    /**
+     * Allow selection on the firstname field.
+     * A real report would have more filters
+     *
+     * @return array
+     */
     public function get_all_filters() : array {
         $tablealias = $this->get_table_alias('demonames');
-        // Name.
-        xdebug_break();
         $filters[] = (new filter(
             text::class,
             'demo_firstname',
