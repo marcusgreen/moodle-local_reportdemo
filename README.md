@@ -2,7 +2,7 @@
 
 Demonstration of the reportbuilder functionality delivered with Moodle 4.X in a local plugin. By Marcus Green
 
-![alt text](./docs/images/reportdemo.png "Screen shot of demo report")
+![alt text](./docs/images/reportdemo.gif "Animation of demo report")
 
 Contact Moodle Partner Catalyst EU (https://www.catalyst-eu.net/) for custom development and consultancy.
 
