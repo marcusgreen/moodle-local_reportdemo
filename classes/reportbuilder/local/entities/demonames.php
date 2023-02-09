@@ -89,7 +89,7 @@ class demonames extends base {
         $filters[] = (new filter(
             text::class,
             'demo_firstname',
-            new lang_string('demo_lastname', 'local_reportdemo'),
+            new lang_string('demo_firstname', 'local_reportdemo'),
             $this->get_entity_name(),
             "{$tablealias}.demo_firstname"
         ))->add_joins($this->get_joins());
