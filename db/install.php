@@ -24,8 +24,6 @@
 
 defined('MOODLE_INTERNAL') || die;
 
-require_login();
-
 function xmldb_local_reportdemo_install() {
     global $DB;
     $data = (object) ['demo_firstname' => 'Albert', 'demo_lastname' => 'Brown'];
