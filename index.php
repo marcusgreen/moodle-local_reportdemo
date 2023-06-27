@@ -27,8 +27,6 @@ require('../../config.php');
 
 defined('MOODLE_INTERNAL') || die();
 
-require_login();
-
 $PAGE->set_context(context_system::instance());
 $PAGE->set_url(new moodle_url('/local/reportdemo/index.php'));
 
