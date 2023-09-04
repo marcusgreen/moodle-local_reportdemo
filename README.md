@@ -12,3 +12,6 @@ https://github.com/marinaglancy/moodle-tool_courserating/blob/master/index.php#L
 https://docs.moodle.org/dev/Report_builder_API
 https://www.youtube.com/watch?v=eoQsxreML_w&t=1494s
 https://docs.moodle.org/dev/Developer_meeting_December_2021
+
+The API is documented here
+https://moodledev.io/docs/apis/core/reportbuilder
