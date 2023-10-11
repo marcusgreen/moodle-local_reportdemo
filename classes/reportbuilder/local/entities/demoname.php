@@ -30,7 +30,7 @@ use core_reportbuilder\local\filters\text;
  * @copyright   2023 Marcus Green
  * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-class demonames extends base {
+class demoname extends base {
 
     protected function get_default_table_aliases(): array {
         return ['demonames' => 'demonames'];
