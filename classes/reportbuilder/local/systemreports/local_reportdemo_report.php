@@ -16,7 +16,7 @@
 
 namespace local_reportdemo\reportbuilder\local\systemreports;
 
-use local_reportdemo\reportbuilder\local\entities\demonames;
+use local_reportdemo\reportbuilder\local\entities\demoname;
 use core_reportbuilder\system_report;
 
 /**
@@ -30,11 +30,11 @@ class local_reportdemo_report extends system_report {
      * Initialise report, we need to set the main table, load our entities and set columns/filters
      */
     protected function initialise(): void {
-        $demoentity = new demonames();
+        $demoentity = new demoname();
         $alias = $demoentity->get_table_alias('demonames');
         $this->add_entity($demoentity);
         $this->set_main_table('local_reportdemo_names', $alias);
-        $this->add_filters_from_entities(['demonames:demo_firstname']);
+        $this->add_filters_from_entities(['demoname:demo_firstname']);
         $this->add_columns();
     }
 
@@ -55,8 +55,8 @@ class local_reportdemo_report extends system_report {
      */
     protected function add_columns(): void {
         $columns = [
-            'demonames:demo_firstname',
-            'demonames:demo_lastname'
+            'demoname:demo_firstname',
+            'demoname:demo_lastname'
         ];
         $this->add_columns_from_entities($columns);
     }

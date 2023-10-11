@@ -22,8 +22,9 @@
  * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-
 require('../../config.php');
+
+require_login();
 
 defined('MOODLE_INTERNAL') || die();
 

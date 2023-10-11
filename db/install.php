@@ -22,8 +22,6 @@
  * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-defined('MOODLE_INTERNAL') || die;
-
 function xmldb_local_reportdemo_install() {
     global $DB;
     $data = (object) ['demo_firstname' => 'Albert', 'demo_lastname' => 'Brown'];
