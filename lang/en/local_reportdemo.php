@@ -19,12 +19,11 @@
  *
  * @copyright 2023 Marcus Green
  * @license http://www.gnu.org/copyleft/gpl.html GNU Public License
- * @package qtype_gapfill
+ * @package local_reportdemo
  */
 defined('MOODLE_INTERNAL') || die();
 $string['pluginname'] = 'Local Reportbuilder demo';
 $string['demo_firstname'] = 'Demo firstname';
 $string['demo_lastname'] = 'Demo lastname';
-$string['reportdemo_names'] = 'Reportdemo names';
-$string['demonames'] = 'demo_names';
-
+$string['reportdemo_names'] = 'Demo names';
+$string['demonames'] = 'Demo names';

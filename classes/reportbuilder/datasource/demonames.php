@@ -21,9 +21,9 @@ use local_reportdemo\reportbuilder\local\entities\demoname;
 use core_reportbuilder\datasource;
 
 /**
- * Cohorts datasource
+ * Demo names datasource for custom reports.
  *
- * @package     core_cohort
+ * @package     local_reportdemo
  * @copyright   2023 Marcus Green
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */

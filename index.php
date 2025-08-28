@@ -30,9 +30,11 @@ defined('MOODLE_INTERNAL') || die();
 
 $PAGE->set_context(context_system::instance());
 $PAGE->set_url(new moodle_url('/local/reportdemo/index.php'));
+$PAGE->set_title(get_string('pluginname', 'local_reportdemo'));
+$PAGE->navbar->add(get_string('pluginname', 'local_reportdemo'), $PAGE->url);
 
 echo $OUTPUT->header();
-echo $OUTPUT->heading('local_reportdemo');
+echo $OUTPUT->heading(get_string('pluginname', 'local_reportdemo'));
 
 $report = \core_reportbuilder\system_report_factory::create(
     \local_reportdemo\reportbuilder\local\systemreports\local_reportdemo_report::class,

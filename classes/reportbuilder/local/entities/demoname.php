@@ -24,7 +24,7 @@ use core_reportbuilder\local\filters\text;
 
 
 /**
- * Reportbuilder entity representing.
+ * Reportbuilder entity for demo names table.
  *
  * @package     local_reportdemo
  * @copyright   2023 Marcus Green
